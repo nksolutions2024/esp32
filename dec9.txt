@@ -1,0 +1,1000 @@
+  184  cd hup/c_language/dsa/
+  185  vim ll.c
+  186  gcc ll.c
+  187  cat ll.c
+  188  vim q1.c 
+  189  rm q1.c
+  190  vim ll.c
+  191  gcc ll.c
+  192  mkdir linkedlist
+  193  git status
+  194  git add .
+  195  git commit -m "moved ll program"
+  196  git push origin main
+  197  cd linkedlist/
+  198  clear
+  199  ls
+  200  gcc
+  201  gcc ll.c 
+  202  vim ll.c 
+  203  gcc ll.c
+  204  ./a.out
+  205  git add .
+  206  git commit -m "option 6&7 okk"
+  207  vim ll.c 
+  208  gcc ll.c 
+  209  vim ll.c 
+  210  gcc ll.c 
+  211  ./a.out
+  212  vim ll.c 
+  213  git add .
+  214  git commit -m "deleteFromPos okk"
+  215  git push origin main
+  216  exit
+  217  ls
+  218  cd hup/
+  219  ls
+  220  git clone https://github.com/nksolutions2024/c_code.git
+  221  ls
+  222  cd c_code/
+  223  ls
+  224  gcc q1.c
+  225  ./a.out
+  226  cd ..
+  227  cd c_language/
+  228  ls
+  229  mkdir filehandling
+  230  cd filehandling/
+  231  vim fgetc.c
+  232  gcc fgetc.c 
+  233  ./a.out
+  234  git add .
+  235  git commit -m "fgetc okk in 1-typing"
+  236  git push origin main
+  237  git pull
+  238  git push origin main
+  239  git pull
+  240  git push origin main
+  241  git config pull.rebase false
+  242  git push origin main
+  243  git pull
+  244  git push origin main
+  245  ls
+  246  cd ..
+  247  ls
+  248  cd ..
+  249  ls
+  250  cd c_language/
+  251  la
+  252  ls
+  253  ls -l
+  254  cat q.c
+  255  rm q.c
+  256  git add .
+  257  git status
+  258  git commit -m "ccleaner"
+  259  ls
+  260  cd dsa
+  261  ls
+  262  cd ..
+  263  ls
+  264  vim bankk.c
+  265  gcc bankk.c 
+  266  ./a.out
+  267  git add .
+  268  git commit -m "switch-case okk"
+  269  vim bankk.c
+  270  git add .
+  271  git commit -m "struct added"
+  272  gcc bankk.c 
+  273  vim bankk.c
+  274  git add .
+  275  git commit -m "array of struct pointers declared"
+  276  gcc bankk.c 
+  277  vim bankk.c
+  278  git add .
+  279  git commit -m "missed dereference of struct-pointer"
+  280  gcc bankk.c 
+  281  vim bankk.c
+  282  git add .
+  283  git commit -m "not used dot operator for member_of_struct"
+  284  gcc bankk.c 
+  285  ./a.out
+  286  vim bankk.c
+  287  gcc bankk.c 
+  288  ./a.out
+  289  git add .
+  290  git commit -m "issue accNo. 101 instead showing 0"
+  291  vim bankk.c
+  292  gcc bankk.c 
+  293  vim bankk.c
+  294  gcc bankk.c 
+  295  ./a.out
+  296  vim bankk.c
+  297  gcc bankk.c 
+  298  ./a.out
+  299  vim bankk.c
+  300  gcc bankk.c 
+  301  ./a.out
+  302  vim bankk.c
+  303  gcc bankk.c 
+  304  ./a.out
+  305  git add .
+  306  git commit -m "display function improved"
+  307  git push origin main
+  308  vim bankk.c 
+  309  gcc bankk.c 
+  310  git add .
+  311  git commit -m "deposit function added"
+  312  ./a.out
+  313  git pull origin main
+  314  git push origin main
+  315  vim bankk.c 
+  316  gcc bankk.c 
+  317  ./a.out
+  318  git commit -m "deposit func okk"
+  319  git add .
+  320  ./a.out
+  321  git commit -m "deposit func okk"
+  322  vim bankk.c 
+  323  gcc bankk.c 
+  324  ./a.out
+  325  vim bankk.c 
+  326  gcc bankk.c 
+  327  git add .
+  328  git commit -m "withdraw func added"
+  329  ./a.out
+  330  vim bankk.c 
+  331  gcc bankk.c 
+  332  .a/out
+  333  ./a.out
+  334  vim bankk.c 
+  335  gcc bankk.c 
+  336  ./a.out
+  337  vim bankk.c 
+  338  gcc bankk.c 
+  339  vim bankk.c 
+  340  gcc bankk.c 
+  341  vim bankk.c 
+  342  gcc bankk.c 
+  343  vim bankk.c 
+  344  gcc bankk.c 
+  345  git add .
+  346  git commit -m "open account function added"
+  347  ./a.out
+  348  vim bankk.c 
+  349  gcc bankk.c 
+  350  vim bankk.c 
+  351  gcc bankk.c 
+  352  ./a.out
+  353  vim bankk.c 
+  354  gcc bankk.c 
+  355  ./a.out
+  356  vim bankk.c 
+  357  gcc bankk.c 
+  358  ./a.out
+  359  vim bankk.c 
+  360  gcc bankk.c 
+  361  ./a.out
+  362  git add .
+  363  git commit -m "cust name passing ; issue"
+  364  git push origin main
+  365  ./a.out
+  366  git push origin main
+  367  vim bankk.c 
+  368  gcc bankk.c 
+  369  ./a.out
+  370  cd ..
+  371  cd c_code/
+  372  ls
+  373  gcc q1.c
+  374  ./a.out
+  375  ls
+  376  cd 250840130044/
+  377  ls
+  378  cd ..
+  379  ls
+  380  vim q1_submitted.c
+  381  gcc q1_submitted.c 
+  382  ./a.out
+  383  git status
+  384  git add .
+  385  git commit -m "q1_submitted"
+  386  git push origin main
+  387  cd ..
+  388  cd c_language/
+  389  cd submitted/
+  390  ls
+  391  gcc q1_submitted.c 
+  392  ./a.out
+  393  git add .
+  394  git commit -m "submitted q1 oct9"
+  395  git push origin main
+  396  ls
+  397  vim q1_submitted.c 
+  398  gcc q1_submitted.c 
+  399  vim q1_submitted.c 
+  400  gcc q1_submitted.c 
+  401  ./a.out
+  402  vim q1_submitted.c 
+  403  gcc q1_submitted.c 
+  404  vim q1_submitted.c 
+  405  gcc q1_submitted.c 
+  406  ./a.out
+  407  vim q1_submitted.c 
+  408  gcc q1_submitted.c 
+  409  ./a.out
+  410  vim q1_submitted.c 
+  411  git add .
+  412  git commit -m "okk"
+  413  git push origin main
+  414  cd ..
+  415  ls
+  416  vim bankk.c 
+  417  gcc bankk.c 
+  418  ./a.out
+  419  vim bankk.c 
+  420  gcc bankk.c 
+  421  vim bankk.c 
+  422  git add .
+  423  git commit -m "issue resolved of name"
+  424  vim bankk.c 
+  425  gcc bankk.c 
+  426  ./a.out
+  427  git add .
+  428  git commit -m "name not replacing the Gopal; breaktime"
+  429  git push origin man
+  430  git push origin main
+  431  cd hup
+  432  mv c_code /..
+  433  mkdir notusing
+  434  mv c_code /notusing
+  435  sudo mv c_code /notusing
+  436  ls
+  437  cd notusing/
+  438  ls
+  439  cd ..
+  440  cd ~
+  441  ls
+  442  cd hup/c_language/
+  443  ls
+  444  cd filehandling/
+  445  ls
+  446  cat fgetc.c 
+  447  vim fgetc.c 
+  448  gcc fgetc.c 
+  449  vim fgetc.c 
+  450  gcc fgetc.c 
+  451  ./a.out
+  452  git add .
+  453  git commit -m "comments only added"
+  454  vim fgetc.c 
+  455  gcc fgetc.c 
+  456  ./a.out
+  457  vim fgetc.c 
+  458  ./a.out
+  459  vim fgetc.c 
+  460  gcc fgetc.c 
+  461  git add .
+  462  git commit -m "prog 2"
+  463  ./a.out
+  464  ls
+  465  ls -l
+  466  ./a.out
+  467  vim fgetc.c 
+  468  gcc fgetc.c 
+  469  ./a.out
+  470  vim fputc.c
+  471  gcc fputc.c 
+  472  vim fputc.c
+  473  gcc fputc.c 
+  474  git add .
+  475  git commit -m "prog 3 typed"
+  476  ./a.out
+  477  ls
+  478  cat PR2.c 
+  479  vim fputc.c 
+  480  gcc fputc.c 
+  481  ./a.out
+  482  ls -l
+  483  cat PR2.c 
+  484  git add .
+  485  git commit -m "prog 3 okk;fclose added"
+  486  vim prog4.c
+  487  gcc prog4.c 
+  488  gcc prog4.c > 2warning.txt
+  489  ls
+  490  cat 2warning.txt 
+  491  vim prog4.c 
+  492  gcc prog4.c 
+  493  git add .
+  494  git commit -m "prog 4 typed from page334"
+  495  ./a.out
+  496  vim prog4.c 
+  497  git push origin main
+  498  vim prog5.c
+  499  gcc prog5.c 
+  500  git add .
+  501  git commit -m "labteacher code fputs fgets puts"
+  502  ./a.out
+  503  git push origin main
+  504  exit
+  505  git pull
+  506  cd hup/c_language/
+  507  ls
+  508  ls -l
+  509  echo p-LUNCH
+  510  seeddddddddhkrrdres
+  511  ls -lt
+  512  git status
+  513  git add .
+  514  git status
+  515  git commit -m "directories reorganize"
+  516  git push origin main
+  517  ls -lt
+  518  cd filehandling/
+  519  ls
+  520  cd ..
+  521  ls
+  522  ls -lt
+  523  cd os
+  524  ls
+  525  cd path.txt
+  526  vim path.txt
+  527  cd ..
+  528  ls lt
+  529  ls -lt
+  530  cd random
+  531  ls
+  532  cd ..
+  533  ls lt
+  534  ls -lt
+  535  cd letusc ; ls
+  536  cd ..
+  537  cd letusc1 ; ls
+  538  cd letusc1 && ls
+  539  cd letusc && ls
+  540  cd ..
+  541  ls -lt
+  542  cd os
+  543  ls
+  544  git status
+  545  ls
+  546  git clone https://github.com/iavisingh/OS_System_Programming.git
+  547  ls
+  548  git status
+  549  git add .
+  550  git rm --cached -r os/OS_System_Programming
+  551  cd ..
+  552  git rm --cached -r os/OS_System_Programming
+  553  git submodule add https://github.com/iavisingh/OS_System_Programming.git os/OS_System_Programming
+  554  git rm --cached -r os/OS_System_Programming
+  555  git submodule add https://github.com/iavisingh/OS_System_Programming.git os/OS_System_Programming
+  556  git rm --cached -r os/OS_System_Programming
+  557  git status
+  558  git submodule add https://github.com/iavisingh/OS_System_Programming.git os/OS_System_Programming
+  559  ls
+  560  cd os
+  561  ls
+  562  cd OS_System_Programming/
+  563  ls
+  564  git status
+  565  git commit -m "Add OS_System_Programming as a submodule"
+  566  git status
+  567  cd ..
+  568  git status
+  569  git commit -m "Add OS_System_Programming as a submodule"
+  570  git status
+  571  git push origin main
+  572  ls
+  573  cd OS_System_Programming/
+  574  ls
+  575  cd practise/
+  576  ls
+  577  cd prinf.c
+  578  cd printf.c
+  579  vim printf.c
+  580  git status
+  581  cd ../..
+  582  ls
+  583  git status
+  584  git add .
+  585  git status
+  586  git add .
+  587  git status
+  588  git restore --staged .
+  589  git status
+  590  git add .
+  591  git status
+  592  git commit -m "os submodule de1901"
+  593  git push origin main
+  594  ls
+  595  cd OS_System_Programming/
+  596  git status
+  597  cd ..
+  598  git submodule update --checkout --recursive
+  599  git status
+  600  cd ..
+  601  git submodule update --checkout --recursive
+  602  git status
+  603  cd os/OS_System_Programming/
+  604  git status
+  605  git reset --hard HEAD
+  606  git status
+  607  cd practise/
+  608  ls
+  609  cat printf.c
+  610  cd ..
+  611  cd .
+  612  cd ..
+  613  git status
+  614  clear
+  615  exit
+  616  git pull
+  617  git status
+  618  git pull
+  619  sudo apt update
+  620  sudo apt upgrade
+  621  cd hup/c_language/
+  622  ls
+  623  git status
+  624  git pull
+  625  sudo systemctl restart
+  626  sudo systemctl restart NetworkManager
+  627  sudo nano /etc/NetworkManager/Network.conf
+  628  sudo nano /etc/NetworkManager/NetworkManager.conf
+  629  sudo systemctl restart NetworkManager
+  630  git pull
+  631  sudo systemctl restart wpa_supplicant
+  632  lspci | grep -i wireless
+  633  sudo nano /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
+  634  sudo systemctl restart NetworkManager
+  635  cd hup/c_language/
+  636  ls
+  637  cd os
+  638  ls
+  639  cd k_OS_System_Programming/
+  640  ls
+  641  cd practise/
+  642  ls
+  643  ls -l
+  644  whereis
+  645  whereis cat
+  646  whereis dog
+  647  whereis hup
+  648  whereis p
+  649  whereis printf
+  650  ls
+  651  head printf.c
+  652  head fork.c
+  653  tail fork.c
+  654  more fork.c
+  655  less fork.c
+  656  pwd
+  657  cd /
+  658  ls
+  659  pwd
+  660  cd /home/user
+  661  cd /home
+  662  ls
+  663  cd kite
+  664  ls
+  665  cd /
+  666  cd /home/visual
+  667  sudo cd /home/visual
+  668  cd -s /home/visual
+  669  ls
+  670  sudo su
+  671  cd home/kite
+  672  cd hup/c_language/
+  673  cd os/
+  674  ls
+  675  cd OS_System_Programming/
+  676  ls
+  677  cd pthread/
+  678  ls
+  679  cat th1.c
+  680  ls
+  681  cd ..
+  682  ls
+  683  cd process/
+  684  ls
+  685  cd /
+  686  mkdir temp1
+  687  ls
+  688  cd home/kite
+  689  ls
+  690  mkdir temp1
+  691  cd mkdir temp1
+  692  cd temp1
+  693  ls
+  694  git clone https://github.com/iavisingh/OS_System_programming
+  695  ls
+  696  cd OS_System_programming/
+  697  ls
+  698  cd pthread/
+  699  ls
+  700  cat 2_threads
+  701  cat 2_threads.c
+  702  ls
+  703  ./pthreads
+  704  ./2_threads
+  705  ls
+  706  git status
+  707  ls
+  708  gcc 2_threads.c -o pthread_hp -l pthread
+  709  ls
+  710  git status
+  711  ./pthread_hp 
+  712  git pull
+  713  pwd
+  714  cd ../..
+  715  cd home/
+  716  cd hup
+  717  ls
+  718  cd kite
+  719  ls
+  720  cd hup/c_language/
+  721  cd os
+  722  cd ../..
+  723  cd c_language/os
+  724  ls
+  725  cd k_OS_System_Programming/
+  726  cd ../../../..
+  727  cd hup/c_language/os/k_OS_System_Programming/
+  728  cd ../../..
+  729  cd hup/c_language/os/k_OS_System_Programming/
+  730  cd ~/hup/c_language/os/k_OS_System_Programming/
+  731  cd ../OS_System_programing
+  732  cd ../OS_System_programming
+  733  cd ../OS_System_Programming
+  734  cd..
+  735  cd ..
+  736  la
+  737  ls
+  738  cd ./dmkdkm
+  739  cd ./k_OS_System_Programming/
+  740  ls
+  741  cd ..
+  742  ls
+  743  git status
+  744  ls
+  745  touch path.txt 
+  746  ls
+  747  touch path.txt 
+  748  git status
+  749  ls -l
+  750  echo "hhello" > newfile.txt
+  751  ls
+  752  cat newfile.txt 
+  753  echo "another line" >> newfile.txt
+  754  cat newfile.txt 
+  755  wc -l < newfile.txt 
+  756  ls -l
+  757  man ls
+  758  man -lh
+  759  ls -lh
+  760  ls -a
+  761  ls
+  762  ls -a
+  763  cd ..
+  764  ls
+  765  ls -a
+  766  cd .gitmodules
+  767  cd .git
+  768  ls
+  769  cd ..
+  770  ls -a
+  771  cat .gitmodules 
+  772  ls -R
+  773  clear
+  774  ls
+  775  cd dsa
+  776  ls -R
+  777  ls -aR
+  778  ls -R
+  779  ls -ltrR
+  780  ls -lSR
+  781  ls -ltrR
+  782  ls --color=auto -R
+  783  clear
+  784  ls --color=auto -R
+  785  ls -R
+  786  ls -d */ -R
+  787  cd ../../../
+  788  cd hup
+  789  ls -d */ -R
+  790  ls -d */
+  791  ls -d */ -R
+  792  cd c_language/
+  793  ls -d */
+  794  ls -d */ -R
+  795  cd dsa
+  796  ls -d */
+  797  ls -d */ -R
+  798  ls -R */
+  799  ls -R
+  800  find . -type d
+  801  cd ..
+  802  find . -type d
+  803  ls
+  804  cd dsa
+  805  find . -type d
+  806  ls
+  807  find . -maxdepth 1 -type d
+  808  find . -maxdepth 2 -type d
+  809  find . -maxdepth 3 -type d
+  810  find . -maxdepth 8 -type d
+  811  cd ..
+  812  find . -maxdepth 2 -type d
+  813  find . -maxdepth 1 -type d
+  814  find . -maxdepth 3 -type d
+  815  find . -maxdepth 2 -type d
+  816  ls
+  817  ls -l
+  818  find . -maxdepth 1 -type d
+  819  find . -maxdepth 2 -type d
+  820  ls -l
+  821  cd random 
+  822  ls
+  823  cd ../bankacc_struct/
+  824  ls
+  825  cd submitted/
+  826  ls
+  827  cd os
+  828  cd ../../os/
+  829  ls
+  830  cd ..
+  831  mkdir emptydir
+  832  ls -l
+  833  cd emptydir/
+  834  echo "" > k.txt
+  835  cd ..
+  836  ls -l
+  837  cd emptydir/
+  838  ls
+  839  rm k.txt 
+  840  ls
+  841  mkdir folder1
+  842  cd ..
+  843  ls -l
+  844  cd emptydir/
+  845  ls
+  846  mkdir dir2
+  847  cd ..
+  848  ls -l
+  849  cd ..
+  850  cd c_language/emptydir/
+  851  ls
+  852  mkdor dir3
+  853  mkdir dir3
+  854  cd ..
+  855  ls -l
+  856  cd e
+  857  cd emptydir/
+  858  ls
+  859  cd folder1
+  860  ls
+  861  mkdir dir1subd0
+  862  cd ../..
+  863  ls -l
+  864  cd ed
+  865  cd emptydir/
+  866  ls -l
+  867  cd /usr
+  868  touch textfile
+  869  ls
+  870  cd ~
+  871  ls
+  872  cd /
+  873  cd ~
+  874  ls
+  875  cd hup/c_language/
+  876  git status
+  877  cd ..
+  878  cd c_language/
+  879  ls
+  880  ls -a
+  881  touch touch8.txt
+  882  ls
+  883  cat touch8.txt 
+  884  ls
+  885  git status
+  886  rm touch8.txt 
+  887  ls
+  888  cd /usr
+  889  touch testfile
+  890  ls
+  891  ls -ld /user
+  892  ls -ld /usr
+  893  cd games
+  894  ls
+  895  ls -l
+  896  gamemoderun
+  897  ls -ld /usr
+  898  ls
+  899  cd ..
+  900  ls
+  901  bin
+  902  cd bin
+  903  ls
+  904  cd ..
+  905  ls
+  906  cd local
+  907  ls
+  908  cd ~
+  909  cd hup/
+  910  cd c_language/
+  911  ls
+  912  mkdir mydir
+  913  ls
+  914  rmdir mydir
+  915  ls
+  916  ls -l
+  917  find /home -name "*.txt"
+  918  history
+  919  ls
+  920  history
+  921  history > hh920.txt
+  922  cat hh920.txt 
+  923  ls
+  924  cat hh920.txt 
+  925  vim hh920.txt 
+  926  ls
+  927  mv hh920.txt ../
+  928  ls
+  929  cd ..
+  930  ls
+  931  head hh920.txt 
+  932  tail hh920.txt 
+  933  cd c_language/
+  934  ls
+  935  git status
+  936  history
+  937  ls
+  938  find /home -name "*.txt"
+  939  whereis ls
+  940  man ls
+  941  man man ls
+  942  man ls
+  943  man man ls
+  944  man 1 ls
+  945  man 2 ls
+  946  which python3
+  947  which mypath
+  948  which $mypath
+  949  which ls
+  950  which a.out
+  951  which ./a.out
+  952  which apt
+  953  cd
+  954  cd hup/c_language/
+  955  cd ..
+  956  ls
+  957  head hh920.txt 
+  958  head -n 5 hh920.txt 
+  959  head -n 50 hh920.txt 
+  960  more hh920.txt 
+  961  less hh920.txt 
+  962  more hh920.txt 
+  963  less hh920.txt 
+  964  history
+  965  find / -type f -name "bash"
+  966  find / -type f -name "os"
+  967  find /home -type f -name "os"
+  968  find /home/kite -type f -name "os"
+  969  find /home/kite -type f -name "hh920"
+  970  find /home/kite -type f -name "hh920.txt"
+  971  history
+  972  less hh920.txt 
+  973  more hh920.txt 
+  974  clear
+  975  cd ../Downloads/
+  976  ls
+  977  cat asgn2.txt 
+  978  LESS asgn2.txt 
+  979  less asgn2.txt 
+  980  taskset
+  981  taskset --help
+  982  ps 
+  983  ps
+  984  top
+  985  htop
+  986  sudo snap install htop
+  987  htop
+  988  ps
+  989  ps -aux
+  990  ps -aux > text1.txt
+  991  cat text1.txt 
+  992  gedit text1.txt 
+  993  rm text1.txt 
+  994  exit
+  995  ls -l
+  996  cd Desktop/
+  997  ls
+  998  ls -l
+  999  sudo su
+ 1000  exit
+ 1001  ls
+ 1002  ls -l
+ 1003  ls
+ 1004  clear
+ 1005  ls
+ 1006  mkdir files3
+ 1007  ls
+ 1008  exit
+ 1009  sudo su
+ 1010  exit
+ 1011  ls
+ 1012  cd temp1/OS_System_programming/
+ 1013  git status
+ 1014  git pull
+ 1015  cd temp1/OS_System_programming/
+ 1016  ls
+ 1017  ls -l
+ 1018  cd assignments/
+ 1019  cat assignment4.txt 
+ 1020  man pcreate
+ 1021  man pthread_create 
+ 1022  ls
+ 1023  vim k1.c
+ 1024  cat k1.c
+ 1025  cd hup/c_language/os/
+ 1026  ls
+ 1027  cp ~/k1.c .
+ 1028  ls
+ 1029  cat k1.c 
+ 1030  vim k1.c 
+ 1031  gcc k1.c
+ 1032  vim k1.c 
+ 1033  git status
+ 1034  git add .
+ 1035  git status
+ 1036  git commit -m "k1.c"
+ 1037  git status
+ 1038  vim k1.c 
+ 1039  /a.out
+ 1040  /.a.out
+ 1041  gcc k1.c 
+ 1042  ./a.out
+ 1043  vim k1.c 
+ 1044  vim k2.c
+ 1045  gcc k2.c
+ 1046  ./a.out
+ 1047  git add .
+ 1048  git commit -m "k2.c"
+ 1049  vim k1.c
+ 1050  cat k2.c 
+ 1051  cat k1.c 
+ 1052  vim k1.c
+ 1053  gcc k1.c
+ 1054  vim k1.c
+ 1055  gcc k1.c
+ 1056  git add .
+ 1057  git commit -m "k1 ; long datatype"
+ 1058  vim k1.c
+ 1059  gcc k1.c
+ 1060  vim k1.c
+ 1061  gcc k1.c
+ 1062  vim k1.c
+ 1063  gcc k1.c
+ 1064  ./a.out
+ 1065  git add .
+ 1066  git status
+ 1067  git commit -m "k1 naming convention snake_case"
+ 1068  vim k1.c
+ 1069  gcc k1.c
+ 1070  ./a.out
+ 1071  vim k1.c
+ 1072  gcc k1.c
+ 1073  ./a.out
+ 1074  vim k1.c
+ 1075  gcc k1.c
+ 1076  ./a.out
+ 1077  vim k1.c
+ 1078  vim k2.c
+ 1079  git statsu
+ 1080  git status
+ 1081  gcc k2.c
+ 1082  ./a.out
+ 1083  cat k2.c
+ 1084  gcc -pthread k2.c -o join
+ 1085  ls
+ 1086  ./join
+ 1087  git add .
+ 1088  git commit -m "gcc -pthread"
+ 1089  gcc k2.c -lpthread
+ 1090  ./a.out
+ 1091  vim k2.c
+ 1092  gcc k2.c -lpthread
+ 1093  ./a.out
+ 1094  git add .
+ 1095  git commit -m "k2 better naming"
+ 1096  vim k2.c
+ 1097  exit
+ 1098  man pthread_create
+ 1099  exit
+ 1100  whatis process
+ 1101  whatis pid
+ 1102  whatis thread
+ 1103  whatis pthread
+ 1104  whatis pthreads
+ 1105  whatis pthread_create
+ 1106  whatis pthread_join
+ 1107  whatis man
+ 1108  ls
+ 1109  vim k1.c
+ 1110  vim temp.c
+ 1111  vim temp1.c
+ 1112  vim temp2.c
+ 1113  ls
+ 1114  vim temp3.c
+ 1115  ls
+ 1116  rm temp3.c 
+ 1117  ls
+ 1118  cat temp1
+ 1119  ls -l
+ 1120  cd temp1/
+ 1121  ls
+ 1122  cd ..
+ 1123  ls
+ 1124  vim temp4.c
+ 1125  ls
+ 1126  vim temp5
+ 1127  ls
+ 1128  vim temp5
+ 1129  ls
+ 1130  rm temp5
+ 1131  ls
+ 1132  vim temp6.k
+ 1133  exit
+ 1134  ls
+ 1135  vim temp0.k
+ 1136  exit
+ 1137  sudo su
+ 1138  exit
+ 1139  cd ~
+ 1140  ls
+ 1141  vim temp1.k
+ 1142  history
+ 1143  exit
+ 1144  ls
+ 1145  cd hup/
+ 1146  ls
+ 1147  cd c_language/
+ 1148  ls
+ 1149  cd os
+ 1150  ls
+ 1151  git status
+ 1152  git push origin main
+ 1153  man pthread_create
+ 1154  cd ~
+ 1155  ls
+ 1156  vim temp0.k
+ 1157  ls
+ 1158  cd hup/c_language/os/
+ 1159  ls
+ 1160  man pthread_create
+ 1161  rxit
+ 1162  exit
+ 1163  sudo su
+ 1164  exit
+ 1165  curl -fsS https://dl.brave.com/install.sh | sh
+ 1166  sudo apt install curl
+ 1167  curl -fsS https://dl.brave.com/install.sh | sh
+ 1168  vim temp2.k
+ 1169  ls -l
+ 1170  rm temp2.k 
+ 1171  ls
+ 1172  exit
+ 1173  cd hup
+ 1174  ls
+ 1175  git clone https://github.com/nksolutions2024/esp32.git
+ 1176  cd esp32/
+ 1177  ls
+ 1178  vim README.md 
+ 1179  git add .
+ 1180  git commit -m "date"
+ 1181  git push origin main
+ 1182  history
+ 1183  history > dec9.txt
