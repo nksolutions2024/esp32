@@ -1,7 +1,6 @@
 #include <WiFi.h>
-#include "esp_wifi.h"
-#include "lwip/err.h"
-#include "lwip/sys.h"
+#include <esp_wifi.h>
+#include <esp_netif.h>
 
 #ifndef LED_BUILTIN
 #define LED_BUILTIN 2
@@ -14,27 +13,28 @@ WiFiServer server(80);
 
 void listConnectedClients() {
   wifi_sta_list_t wifi_sta_list;
-  tcpip_adapter_sta_list_t adapter_sta_list;
+  esp_netif_sta_list_t netif_sta_list;
 
+  // Get MACs of connected stations
   esp_wifi_ap_get_sta_list(&wifi_sta_list);
-  tcpip_adapter_get_sta_list(&wifi_sta_list, &adapter_sta_list);
+
+  // Convert MAC list to IP list
+  esp_netif_get_sta_list(&wifi_sta_list, &netif_sta_list);
 
   Serial.println("\n--- Connected Clients ---");
-  if (adapter_sta_list.num == 0) {
+  if (netif_sta_list.num == 0) {
     Serial.println("No devices connected.");
   }
 
-  for (int i = 0; i < adapter_sta_list.num; i++) {
-    tcpip_adapter_sta_info_t station = adapter_sta_list.sta[i];
+  for (int i = 0; i < netif_sta_list.num; i++) {
+    esp_netif_sta_info_t station = netif_sta_list.sta[i];
 
     Serial.print("Client ");
     Serial.print(i + 1);
     Serial.print(" MAC: ");
-
-    for (int b = 0; b < 6; b++) {
-      Serial.printf("%02X", station.mac[b]);
-      if (b < 5) Serial.print(":");
-    }
+    Serial.printf("%02X:%02X:%02X:%02X:%02X:%02X",
+                  station.mac[0], station.mac[1], station.mac[2],
+                  station.mac[3], station.mac[4], station.mac[5]);
 
     Serial.print("  IP: ");
     Serial.println(IPAddress(station.ip.addr));
@@ -44,53 +44,35 @@ void listConnectedClients() {
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
-  digitalWrite(LED_BUILTIN, LOW);
 
   Serial.begin(115200);
-  Serial.println("\nConfiguring Access Point...");
+  Serial.println("Configuring Access Point...");
 
   if (!WiFi.softAP(ssid, password)) {
-    Serial.println("Soft AP creation failed");
+    Serial.println("AP setup failed!");
     while (1);
   }
 
-  Serial.print("AP IP address: ");
+  Serial.print("AP IP: ");
   Serial.println(WiFi.softAPIP());
-
   server.begin();
   Serial.println("Server started");
 }
 
 void loop() {
-  // Check and display connected clients every 5 seconds
-  static unsigned long lastTime = 0;
-  if (millis() - lastTime > 5000) {
-    lastTime = millis();
+  static unsigned long lastCheck = 0;
+  if (millis() - lastCheck > 5000) {
+    lastCheck = millis();
     listConnectedClients();
   }
 
-  WiFiClient client = server.available();
+  WiFiClient client = server.accept();
+
   if (client) {
-    Serial.println("New Client Connected");
+    Serial.println("Client Connected");
 
-    while (client.connected()) {
-      if (client.available()) {
-        String request = client.readStringUntil('\r');
-        Serial.println(request);
-
-        // Basic web response
-        client.println("HTTP/1.1 200 OK");
-        client.println("Content-type:text/html");
-        client.println();
-        client.println("<html><body><h2>Hello from ESP32 AP Server</h2>");
-        client.println("<p>Check Serial Monitor for connected devices</p>");
-        client.println("</body></html>");
-        break;
-      }
-    }
-
-    delay(1);
-    client.stop();
-    Serial.println("Client Disconnected");
-  }
-}
+    client.println("HTTP/1.1 200 OK");
+    client.println("Content-Type: text/html");
+    client.println("Connection: close");
+    client.println();
+    client.println
