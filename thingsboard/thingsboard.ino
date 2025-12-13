@@ -8,7 +8,7 @@ uint8_t newMACAddress[] = {0xF4, 0x96, 0x34, 0x9D, 0xE6, 0x2B};
 
 // ----------- WiFi Credentials -----------
 const char* ssid     = "KCH40";
-const char* password = "123456788";
+const char* password = "";
 
 // ----------- ThingsBoard HTTP Telemetry URL -----------
 const char* serverName =
@@ -26,7 +26,7 @@ void setup() {
   Serial.begin(115200);
 
   WiFi.mode(WIFI_STA);
-  esp_wifi_set_mac(WIFI_IF_STA, &newMACAddress[0]);
+  // esp_wifi_set_mac(WIFI_IF_STA, &newMACAddress[0]);
 
   WiFi.begin(ssid, password);
 
