@@ -12,7 +12,7 @@ const char* password = "123456788";
 
 // ----------- ThingsBoard HTTP Telemetry URL -----------
 const char* serverName =
-  "http://demo.thingsboard.io/api/v1/Y/telemetry";
+  "http://thingsboard.cloud/api/v1/LMH7Owp5zlQJX5U18eYa/telemetry";
 
 // ----------- Variables -----------
 long humidityBetween1To100;
