@@ -1,9 +1,10 @@
-#include <Wifi.h>
+#include <WiFi.h>
 #include<PubSubClient.h>
 #include<esp_wifi.h>
 #include<ArduinoJson.h>
 #include"config.h"
 
+#define LED_BUILTIN 2
 DynamicJsonDocument sensor_data_payload(1024);
 char sensor_data_format_for_mqtt_publish[1024];
 

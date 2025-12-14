@@ -5,7 +5,7 @@
 const char* WIFI_SSID = "KCH40";
 const char* WIFI_PASSWORD = "123456788" ;
 
-const char* MOTT_BROKER = "13.233.232.181";
+const char* MQTT_BROKER = "13.233.232.181";
 const int MQTT_PORT = 1883;
 const char* MQTT_CLIENT_ID  = "iotnode-08";
 
