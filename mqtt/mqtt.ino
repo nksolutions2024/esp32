@@ -94,8 +94,8 @@ void loop(){
 
 		delay(2000);
 
-		Serial.println("Humidity:" + String(humidity));
-		Serial.println("Temperature:" + String(temperature));
+		Serial.println("humidity:" + String(humidity));
+		Serial.println("temperature:" + String(temperature));
 		client.publish(MQTT_TOPIC_PUBLISH, sensor_data_format_for_mqtt_publish);
 		Serial.println("Sensor data sent to broker");		
 
